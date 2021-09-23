@@ -34,6 +34,11 @@
                                 Integração CSS
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=basico&file=comentarios">
+                                Comentários PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">

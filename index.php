@@ -54,7 +54,11 @@
                                 Tipo Inteiro
                             </a>
                         </li>
-                        <li><a href="#">Exercício B</a></li>
+                        <li><a 
+                                href="exercicios.php?dir=tipos&file=float">
+                                Tipo Float
+                            </a>
+                        </li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
                 </div>

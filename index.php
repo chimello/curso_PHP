@@ -39,6 +39,11 @@
                                 Comentários PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=basico&file=desafio">
+                                Desafio PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">

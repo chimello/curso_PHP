@@ -59,7 +59,11 @@
                                 Tipo Float
                             </a>
                         </li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a 
+                                href="exercicios.php?dir=tipos&file=aritmeticas">
+                                Operações Aritméticas
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">

@@ -79,6 +79,11 @@
                                 Desafio String
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=tipos&file=booleano">
+                                Tipo Booleano
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">

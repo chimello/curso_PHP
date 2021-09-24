@@ -94,8 +94,16 @@
                 <div class="modulo azul">
                     <h3>Módulo 03</h3>
                     <ul>
-                        <li><a href="exercicios.php?dir=variaveis&file=basico">Variáveis PHP</a></li>
-                        <li><a href="#">Exercício B</a></li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=basico">
+                                Variáveis PHP
+                            </a>
+                        </li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=desafio_equacao">
+                            Desafio Equação
+                            </a>
+                        </li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
                 </div>

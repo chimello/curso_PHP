@@ -1,3 +1,4 @@
+
 <div class="titu">Variáveis</div>
 
 <?php
@@ -22,5 +23,18 @@ var_dump($somaDosNumeros);
 $variavel = 'Agora sou uma String!';
 echo '<br>'. $variavel;
 
+// nomes de variavel
 
+$var = 'valida';
+$var2 = 'valida';
+$VAR3 = 'valida';
+$_var_4 = 'valida'; 
+$vâr5 = 'valida'; //não recomendado
+//$6var = 'invalida';
+//$%var7 = 'invalida';
+//$var8% = 'invalida';
+
+echo '<br>'. $_SERVER. '<br>';
+var_dump($_SERVER["HTTP_HOST"]);
+echo '</br>';
 ?>

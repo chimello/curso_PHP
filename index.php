@@ -104,7 +104,11 @@
                             Desafio Equação
                             </a>
                         </li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=atribuicoes">
+                            Atribuições PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">

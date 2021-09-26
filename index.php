@@ -124,6 +124,11 @@
                             Desafio Variáveis PHP
                             </a>
                         </li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=valor_referencia">
+                            Valor vs Referência PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">

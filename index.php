@@ -142,10 +142,13 @@
                     <li><a 
                             href="exercicios.php?dir=controle&file=if_else">
                             IF Else PHP
-                            </a>
-                        </li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        </a>
+                    </li>
+                    <li><a 
+                            href="exercicios.php?dir=controle&file=operadores_relacionais">
+                            Operadores Relacionais PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">

@@ -7,6 +7,8 @@
         <option value="milha-km">Milha > KM</option>
         <option value="metro-km">Metro > KM</option>
         <option value="km-metro">KM > Metro</option>
+        <option value="c-f">celsius > fahrenheit</option>
+        <option value="f-c">fahrenheit > celsius</option>
     </select>
     <button>Calcular</button>
 </form>
@@ -40,6 +42,16 @@
                     $resultado = $valorInformado * 1000;
                     $resultado = number_format($resultado, 2, ',', '.');
                     echo "O resultado é: {$resultado} Metros";
+                    break;
+                case 'c-f':
+                    $resultado = $valorInformado * 1.8 + 32;
+                    $resultado = number_format($resultado, 2, ',', '.');
+                    echo "O resultado é: {$resultado} grau(s) Fahrenheit";
+                    break;
+                case 'f-c':
+                    $resultado = ($valorInformado - 32) / 1.8;
+                    $resultado = number_format($resultado, 2, ',', '.');
+                    echo "O resultado é: {$resultado} grau(s) Celcius";
                     break;
                 default:
                     echo 'Não foi possível converter!';

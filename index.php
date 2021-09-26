@@ -159,6 +159,11 @@
                             Operadores Lógicos PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=controle&file=desafio_operadores_logicos">
+                            Desafio Operadores Lógicos PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">

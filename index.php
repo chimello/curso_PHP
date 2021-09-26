@@ -119,6 +119,11 @@
                             Variáveis Variáveis PHP
                             </a>
                         </li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=desafio_variaveis">
+                            Desafio Variáveis PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">

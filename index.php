@@ -92,7 +92,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Módulo 03</h3>
+                    <h3>Módulo 03 - Variáveis</h3>
                     <ul>
                         <li><a 
                             href="exercicios.php?dir=variaveis&file=basico">
@@ -112,6 +112,11 @@
                         <li><a 
                             href="exercicios.php?dir=variaveis&file=interpolacao">
                             Interpolação PHP
+                            </a>
+                        </li>
+                        <li><a 
+                            href="exercicios.php?dir=variaveis&file=variaveis_variaveis">
+                            Variáveis Variáveis PHP
                             </a>
                         </li>
                     </ul>

@@ -2,7 +2,7 @@
 
 <?php
 
-    $idade = 70;
+    $idade = 65;
     $status;
 
     $status = $idade >= 18 ? 'Maior de Idade' : 'Menor de Idade';
@@ -10,7 +10,7 @@
 
     //pouco legivel
     $status = $idade >= 18 ? 
-                    $idade >= 65 ? 'Aposentado' : 'Maior de Idade'
+                    ($idade >= 65 ? 'Aposentado' : 'Maior de Idade')
               : 'Menor de Idade';
     echo "{$status}<br>";
     //end

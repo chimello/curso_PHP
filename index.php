@@ -154,6 +154,11 @@
                             Desafio PI PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=controle&file=operadores_logicos">
+                            Operadores Lógicos PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo laranja">

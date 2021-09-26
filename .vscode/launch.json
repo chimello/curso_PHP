@@ -9,7 +9,7 @@
             "name": "Listen for XDebug",
             "type": "php",
             "request": "launch",
-            "port": 5500,
+            "port": 3000,
             "xdebugSettings" : {
                 "max_data": -1,
                 "max_children": 100,
@@ -21,14 +21,14 @@
             "request": "launch",
             "program": "${file}",
             "cwd": "${fileDirname}",
-            "port": 5500
+            "port": 3000
         }, 
         {
             "name": "Launch Firefox",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost:5500/index.php",
+            "url": "http://localhost:3000/index.php",
             "webRoot": "${workspaceFolder}"
         }
     ]

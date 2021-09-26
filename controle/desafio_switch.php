@@ -43,6 +43,7 @@
                     break;
                 default:
                     echo 'Não foi possível converter!';
+                    break;
             };
         } else {
             echo "Informe somente números";

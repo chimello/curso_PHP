@@ -182,11 +182,13 @@
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>Módulo 05</h3>
+                    <h3>Módulo 05 - Array</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                    <li><a 
+                            href="exercicios.php?dir=array&file=basico">
+                            Array PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">

@@ -249,6 +249,11 @@
                                 Laço FOR PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=repeticoes&file=desafio_for">
+                                Desafio FOR PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">

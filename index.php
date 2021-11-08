@@ -194,6 +194,11 @@
                             Mapa PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=array&file=desafio_index">
+                            Desafio Index PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">

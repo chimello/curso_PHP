@@ -199,6 +199,11 @@
                             Desafio Index PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=array&file=desafio_meses">
+                            Desafio Meses PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">

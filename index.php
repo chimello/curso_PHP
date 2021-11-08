@@ -204,6 +204,11 @@
                             Desafio Meses PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=array&file=operacoes">
+                            Operações PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">

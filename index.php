@@ -219,6 +219,11 @@
                             Multidimensionais PHP
                         </a>
                     </li>
+                    <li><a 
+                            href="exercicios.php?dir=array&file=constantes">
+                            Arrays Constantes PHP
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">

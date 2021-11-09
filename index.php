@@ -259,6 +259,11 @@
                                 FOR EACH PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=repeticoes&file=break_continue">
+                                Break / Continue PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">

@@ -294,6 +294,11 @@
                                  Função & Escopo PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=funcoes&file=args_retorno">
+                                 Argumentos & Retorno PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

@@ -299,6 +299,11 @@
                                  Argumentos & Retorno PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=funcoes&file=palindromo">
+                                 Desafio Palindromo PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

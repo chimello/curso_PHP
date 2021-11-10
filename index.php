@@ -274,6 +274,11 @@
                                 While/Do While PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=repeticoes&file=desafio_tabela">
+                                Desafio Tabela PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">

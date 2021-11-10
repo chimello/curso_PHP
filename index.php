@@ -304,6 +304,11 @@
                                  Desafio Palindromo PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=funcoes&file=args_variaveis">
+                                 Argumentos Variáveis PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

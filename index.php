@@ -279,6 +279,11 @@
                                 Desafio Tabela PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=repeticoes&file=desafio_tabela_2">
+                                Desafio Tabela 2 PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">

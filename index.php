@@ -289,24 +289,34 @@
                 <div class="modulo vermelho-escuro">
                     <h3>Módulo 07 - Funções</h3>
                     <ul>
-                        <li><a 
+                        <li>
+                            <a 
                                 href="exercicios.php?dir=funcoes&file=escopo">
                                  Função & Escopo PHP
                             </a>
                         </li>
-                        <li><a 
+                        <li>
+                            <a 
                                 href="exercicios.php?dir=funcoes&file=args_retorno">
                                  Argumentos & Retorno PHP
                             </a>
                         </li>
-                        <li><a 
+                        <li>
+                            <a 
                                 href="exercicios.php?dir=funcoes&file=palindromo">
                                  Desafio Palindromo PHP
                             </a>
                         </li>
-                        <li><a 
+                        <li>
+                            <a 
                                 href="exercicios.php?dir=funcoes&file=args_variaveis">
                                  Argumentos Variáveis PHP
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=arg_padrao">
+                                 Argumento Padrão PHP
                             </a>
                         </li>
                     </ul>

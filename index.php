@@ -264,6 +264,11 @@
                                 Break / Continue PHP
                             </a>
                         </li>
+                        <li><a 
+                                href="exercicios.php?dir=repeticoes&file=desafio_impressao">
+                                Desafio Impressão PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">

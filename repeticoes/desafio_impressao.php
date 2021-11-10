@@ -19,10 +19,10 @@
     ];
 
     for ($i=0; $i < count($array); $i++) { 
-        if($i % 2 != 0) {
+        if($i % 2 !== 0) {
             continue;
         };
-        if ($i % 2 == 0) {
+        if ($i % 2 === 0) {
             echo "indice: $i => $array[$i] <br>";
         };
     };
@@ -32,10 +32,10 @@
     echo "<hr>";
 
     foreach($array as $chave => $valor) {
-        if($chave % 2 != 0) {
+        if($chave % 2 !== 0) {
             continue;
         };
-        if ($chave % 2 == 0) {
+        if ($chave % 2 === 0) {
             echo "indice: $chave => $valor <br>";
         };
     }

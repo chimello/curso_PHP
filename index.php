@@ -319,6 +319,12 @@
                                  Argumento Padrão PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=usando_tipos">
+                                 Usando Tipos PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

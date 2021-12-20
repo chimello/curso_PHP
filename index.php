@@ -331,6 +331,12 @@
                                  Funções Anônimas PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=closure_callable">
+                                 Closure & Callable PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

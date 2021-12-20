@@ -337,6 +337,12 @@
                                  Closure & Callable PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=recursividade">
+                                 Recursividade PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

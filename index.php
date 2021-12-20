@@ -343,6 +343,12 @@
                                  Recursividade PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=desafio_recursividade">
+                                 Desafio Recursão PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

@@ -349,6 +349,12 @@
                                  Desafio Recursão PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=retornando_funcao">
+                                 Retornando Função PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

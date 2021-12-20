@@ -4,12 +4,11 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Listen for XDebug",
             "type": "php",
             "request": "launch",
-            "port": 3000,
+            "port": 9003,
             "xdebugSettings" : {
                 "max_data": -1,
                 "max_children": 100,
@@ -21,15 +20,7 @@
             "request": "launch",
             "program": "${file}",
             "cwd": "${fileDirname}",
-            "port": 3000
-        }, 
-        {
-            "name": "Launch Firefox",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "http://localhost:3000/index.php",
-            "webRoot": "${workspaceFolder}"
+            "port": 9003
         }
     ]
 }

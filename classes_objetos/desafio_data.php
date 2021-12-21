@@ -19,6 +19,7 @@
     }
 
     $data1 = new Data();
+    
     $data2 = new Data();
     $data2->dia = 20;
     $data2->mes = 12;

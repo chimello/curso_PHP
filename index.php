@@ -355,6 +355,12 @@
                                  Retornando Função PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=funcoes&file=map_filter">
+                                 MAP & Filter PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">

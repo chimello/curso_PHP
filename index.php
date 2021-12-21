@@ -426,6 +426,12 @@
                                 Desafio Erros PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=classes_objetos&file=final">
+                                Modificador Final PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">

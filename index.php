@@ -420,6 +420,12 @@
                                 Classe Abstrata PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=classes_objetos&file=desafio_erros">
+                                Desafio Erros PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">

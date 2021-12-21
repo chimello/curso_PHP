@@ -408,6 +408,12 @@
                                 Membros Estáticos PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=classes_objetos&file=interface">
+                                Interface PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">

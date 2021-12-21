@@ -9,17 +9,18 @@
 
         //metodo
         public function apresentar() {
-            echo "Nome: {$this->nome} Idade: {$this->idade}<br>";
+            return "Nome: {$this->nome} Idade: {$this->idade}";
         }
     }
 
     $c1 = new Cliente();
     $c1->nome = 'João Chimello';
     $c1->idade = 25;
-    $c1->apresentar();
-
+    
     $c2 = new Cliente();
     $c2->nome = 'Stefani Chimello';
     $c2->idade = 21;
-    $c2->apresentar();
+
+    echo $c1->apresentar() . '<br>';
+    echo $c2->apresentar() . '<br>';
 ?>

@@ -378,6 +378,12 @@
                                 Desafio Data PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=classes_objetos&file=construtor_destrutor">
+                                Construtor & Destrutor PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">

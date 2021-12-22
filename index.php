@@ -479,6 +479,12 @@
                                 Include VS Require PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=includes&file=require_return">
+                                Require & Return PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

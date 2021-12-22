@@ -398,12 +398,6 @@
                         </li>
                         <li>
                             <a 
-                                href="exercicios.php?dir=classes_objetos&file=visibilidade">
-                                Visibilidade PHP
-                            </a>
-                        </li>
-                        <li>
-                            <a 
                                 href="exercicios.php?dir=classes_objetos&file=static">
                                 Membros Estáticos PHP
                             </a>
@@ -483,6 +477,12 @@
                             <a 
                                 href="exercicios.php?dir=includes&file=require_return">
                                 Require & Return PHP
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=includes&file=include_once">
+                                Include Once PHP
                             </a>
                         </li>
                     </ul>

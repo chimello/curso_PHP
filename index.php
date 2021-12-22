@@ -473,6 +473,12 @@
                                 Include Função PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=includes&file=include_require">
+                                Include VS Require PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

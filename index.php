@@ -485,6 +485,12 @@
                                 Include Once PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=includes&file=desafio">
+                                Desafio do Módulo PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

@@ -33,7 +33,7 @@ use const outro_contexto\constante4;
         return 1;
     }
 
-    echo \strpos('Texto genérico para busca', 'busca'); //busca a que eu implementei
+    echo strpos('Texto genérico para busca', 'busca'); //busca a que eu implementei
     echo \strpos('Texto genérico para busca', 'busca'); //na raiz (função do PHP)
     
 ?>

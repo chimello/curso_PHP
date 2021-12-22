@@ -396,4 +396,14 @@
             </li>
         </ul>
     </div>
+    <div class="modulo laranja-escuro">
+        <h3>Módulo 10 - NameSpaces</h3>
+        <ul>
+            <li>
+                <a href="exercicios.php?dir=namespace&file=basico">
+                    Exemplo Básico PHP
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>

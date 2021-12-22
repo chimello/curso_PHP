@@ -416,4 +416,14 @@
             </li>
         </ul>
     </div>
+    <div class="modulo verde">
+        <h3>Módulo 11 - Tratamento de Erros</h3>
+        <ul>
+            <li>
+                <a href="exercicios.php?dir=tratamento_erro&file=try_catch">
+                    Try & Catch PHP
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>

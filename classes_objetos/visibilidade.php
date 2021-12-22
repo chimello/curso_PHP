@@ -27,10 +27,10 @@
 
     class B extends A {
         public function mostrarB() {
-            echo "Class B) Publico = {$this-> publico}<br>";
-            echo "Class B) Protegido = {$this-> protegido}<br>";
+            echo "Class B) Publico = {$this->publico}<br>";
+            echo "Class B) Protegido = {$this->protegido}<br>";
             //gera erro pois é acessível nomente na classe, não na herança
-            //echo "Class B) Privado = {$this-> privado}<br>";
+            echo "Class B) Privado = {$this->privado}<br>";
             parent::vaiPorHeranca();
         }
     }

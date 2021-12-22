@@ -450,6 +450,12 @@
                                 Magic Methods PHP
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=classes_objetos&file=polimorfismo">
+                                Polimorfismo PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">

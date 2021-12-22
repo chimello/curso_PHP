@@ -459,11 +459,14 @@
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">
-                    <h3>Módulo 09</h3>
+                    <h3>Módulo 09 - Includes</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li>
+                            <a 
+                                href="exercicios.php?dir=includes&file=include">
+                                Includes PHP
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

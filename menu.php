@@ -404,6 +404,11 @@
                     Exemplo Básico PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=namespace&file=sub_namespaces">
+                    Sub-NameSpaces PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

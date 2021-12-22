@@ -409,6 +409,11 @@
                     Sub-NameSpaces PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=namespace&file=use_as">
+                    Use & As PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

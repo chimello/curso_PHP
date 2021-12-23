@@ -434,6 +434,11 @@
                     Desafio IntDiv PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=tratamento_erro&file=gerenciador_erro">
+                    Error Handler PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

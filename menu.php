@@ -441,4 +441,14 @@
             </li>
         </ul>
     </div>
+    <div class="modulo vermelho">
+        <h3>Módulo 12 - Sessão & Cookie</h3>
+        <ul>
+            <li>
+                <a href="exercicios.php?dir=sessao&file=basico_sessao">
+                    Sessão Básico PHP
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>

@@ -464,6 +464,11 @@
                     Datas #01 PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=api&file=datas_02">
+                    Datas #02 PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

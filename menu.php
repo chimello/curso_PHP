@@ -424,6 +424,11 @@
                     Try & Catch PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=tratamento_erro&file=erros_personalizados">
+                    Erros Personalizados PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

@@ -429,6 +429,11 @@
                     Erros Personalizados PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=tratamento_erro&file=desafio_intdiv_teste">
+                    Desafio IntDiv PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

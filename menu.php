@@ -449,6 +449,11 @@
                     Sessão Básico PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=sessao&file=gerenciando_sessao">
+                    Gerenciando Sessão PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

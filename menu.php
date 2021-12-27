@@ -479,6 +479,11 @@
                     Ler Arquivo PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=api&file=upload">
+                    Upload de Arquivo PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

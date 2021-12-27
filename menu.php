@@ -514,6 +514,11 @@
                     Criar Banco PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=db&file=criar_tabela">
+                    Criar Tabela PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

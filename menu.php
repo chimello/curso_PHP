@@ -474,6 +474,11 @@
                     Escrever Arquivo PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=api&file=ler_arquivo">
+                    Ler Arquivo PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

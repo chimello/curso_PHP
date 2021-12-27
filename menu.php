@@ -489,6 +489,11 @@
                     Download de Arquivo PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=api&file=imagens">
+                    Desafio Imagens PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

@@ -36,5 +36,10 @@
 
     echo ($amanha > $dataPassada ? 'Maior' : 'Menor') . '<br>';
     echo ($amanha > $dataFutura ? 'Maior' : 'Menor') . '<br>';
+    //igualdade estrita é diferente pois o endereço de memória é outro
     echo ($outraData == $dataFutura ? 'Igual' : 'Diferente') . '<br>';
+
+    $tz = new DateTimeZone('America/Sao_Paulo');
+    $agora = new DateTime(null, $tz);
+    echo $agora->format('d/M/Y H:i:s');
 ?>

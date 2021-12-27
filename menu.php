@@ -484,6 +484,11 @@
                     Upload de Arquivo PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=api&file=download">
+                    Download de Arquivo PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

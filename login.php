@@ -15,6 +15,11 @@
                 "email" => "joao@email.com",
                 "senha" => "123",
             ],
+            [
+                "nome" => "Ricardo",
+                "email" => "ricardo@email.com",
+                "senha" => "123",
+            ],
         ];
 
         foreach($usuarios as $usuario) {

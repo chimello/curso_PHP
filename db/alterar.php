@@ -1,7 +1,38 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<div class="titulo">Inserir Registros #02 PHP</div>
+<div class="titulo">Alterar Registros PHP</div>
 
 <?php
+    require_once "conexao.php";
+    $conexao = novaConexao();
+
+    if($_GET['codigo']) {
+        $sql = "SELECT id,
+                    nome,
+                    nascimento,
+                    email,
+                    site,
+                    filhos,
+                    salario
+                FROM cadastro
+                WHERE id = ?";
+        $statement = $conexao->prepare($sql);
+        $statement->bind_param('i', $_GET['codigo']);
+
+        if($statement->execute()) {
+            $resultado = $statement->get_result();
+            if($resultado->num_rows > 0) {
+                $dados = $resultado->fetch_assoc();
+                if($dados['nascimento']) {
+                    $dateTime = new DateTime($dados['nascimento']);
+                    $dados['nascimento'] = $dateTime->format('d/m/Y');
+                }
+                if($dados['salario']) {
+                    $dados['salario']= str_replace(".", ",", $dados['salario']);
+                }
+            }
+        }
+    }
+
     if(count($_POST) > 0) {
         $dados = $_POST;
         $erros = [];
@@ -46,12 +77,15 @@
         }
 
         if(!count($erros)) {
-            require_once "conexao.php";
-            $sql = "INSERT INTO cadastro (
-                nome, nascimento, email, site, filhos, salario
-            ) VALUES (?, ?, ?, ?, ?, ?)";
+            $sql = "UPDATE cadastro
+                    SET nome = ?,
+                        nascimento = ?,
+                        email = ?,
+                        site = ?,
+                        filhos = ?,
+                        salario = ?
+                    WHERE id = ?";
 
-            $conexao = novaConexao();
             $statement = $conexao->prepare($sql);
 
             $params = [
@@ -61,9 +95,10 @@
                 $dados['site'],
                 $dados['filhos'],
                 $dados['salario'] ? str_replace(",", ".", $dados['salario']) : null,
+                $dados['id'],
             ];
 
-            $statement->bind_param("ssssid", ...$params);
+            $statement->bind_param("ssssidi", ...$params);
             
             if($statement->execute()) {
                 unset($dados);
@@ -72,6 +107,22 @@
     }
 ?>
 
+<form action="/exercicios.php" method="get">
+    <input type="hidden" name="dir" value="db">
+    <input type="hidden" name="file" value="alterar">
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <input type="number" name="codigo" 
+                class="form-control"
+                value="<?= $_GET['codigo'] ?>"
+            placeholder="Informe o código para consulta">
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success mb-5">Consultar</button>
+        </div>
+    </div>
+</form>
+
 <?php foreach($erros as $erro): ?>
     <!-- <div class="alert alert-danger" role="alert">
         <?= ""//$erro ?>
@@ -79,6 +130,7 @@
 <?php endforeach ?>
 
 <form action="#" method="post">
+    <input type="hidden" name="id" value="<?= $dados['id'] ?>">
     <div class="form-row">
         <div class="form-group col-md-9">
             <label for="nome">Nome</label>

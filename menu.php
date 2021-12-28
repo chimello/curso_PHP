@@ -529,6 +529,11 @@
                     Consultar Registros PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=db&file=excluir_1">
+                    Excluir Registros #01 PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

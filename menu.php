@@ -524,6 +524,11 @@
                     Inserir Registros #01 PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=db&file=consultar">
+                    Consultar Registros PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

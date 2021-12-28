@@ -519,6 +519,11 @@
                     Criar Tabela PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=db&file=inserir_1">
+                    Inserir Registros #01 PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>

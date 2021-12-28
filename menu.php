@@ -539,6 +539,11 @@
                     Excluir Registros #02 PHP
                 </a>
             </li>
+            <li>
+                <a href="exercicios.php?dir=db&file=inserir_2">
+                    Inserir Registros #02 PHP
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
